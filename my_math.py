@@ -51,4 +51,4 @@ def mean(values):
     if count == 0:
         raise ValueError("mean() of empty data")
 
-    return total / count
+    return total / count# HW5 final submission
