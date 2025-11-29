@@ -1,8 +1,19 @@
 # my_math.py
+# Name: Aiden Brown
+# QCC ID: 24668959
+
+def abs_val(x):
+    """
+    Return the absolute value of x without using Python's built-in abs().
+    """
+    if x < 0:
+        return -x
+    return x
 
 def fibonacci(n):
     """
     Return the n-th Fibonacci number (0-indexed).
+
     Raises:
         TypeError: if n is not an int
         ValueError: if n is negative
@@ -20,10 +31,10 @@ def fibonacci(n):
         a, b = b, a + b
     return b
 
-
 def mean(values):
     """
     Return the arithmetic mean of a non-empty iterable of numbers.
+
     Raises:
         ValueError: if values is empty
         TypeError: if any element is not a number
